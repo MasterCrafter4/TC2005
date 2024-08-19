@@ -30,7 +30,7 @@ console.log("El promedio es: ${promedio(numeros)}");
 //ejercicio 2
 const fs = require('fs');
 
-fs.writeFileSync("Hola.txt", "Adiós");
+fs.writeFileSync("Adiós.txt", "Adiós");
 
 //ejercicio 3
 function areaCirculo(radio) {
