@@ -25,7 +25,7 @@ function promedio(array){
 }
 
 const numeros = [10, 20, 30, 40, 50]
-console.log("El promedio es: ${promedio(numeros)}");
+console.log(`El promedio es: ${promedio(numeros)}`);
 
 //ejercicio 2
 const fs = require('fs');
@@ -46,11 +46,13 @@ const server = http.createServer((request, response) => {
     console.log(request.url);
     response.setHeader('Content-Type', 'text/html');
     response.write(`      
-                 <!DOCTYPE html>
-<html >
+    <!DOCTYPE html>
+    <html>
     <head>
+        <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>T I T U L O</title>
-	<link rel="stylesheet" type="text/css" href="/css/lab3.css">
+	<link rel="stylesheet" href="/css/lab3.css">
     </head>
     <body>
         <header>

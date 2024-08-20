@@ -1,0 +1,26 @@
+{
+  "name": "pagina_web",
+  "version": "1.0.0",
+  "description": "Laboratorios de TC2005",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasterCrafter4/TC2005.git"
+  },
+  "author": "Daniel Aguilar Darío",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MasterCrafter4/TC2005/issues"
+  },
+  "homepage": "https://github.com/MasterCrafter4/TC2005#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
